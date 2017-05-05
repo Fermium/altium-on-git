@@ -1,0 +1,26 @@
+History/
+
+*.PrjPCBStructure
+
+#Previews should remain locals
+*.SchDocPreview
+*.PcbDocPreview
+__Previewss
+
+#Useless extensions
+*.Dat
+*.REP 
+*.TLT
+*.LOG
+*.htm
+*.$$$
+*.log
+
+# Default useless output folders
+Project\ Outputs/
+Project\ Logs/
+
+
+# Ignore exports
+exports/
+!exports/README.md
