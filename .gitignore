@@ -1,26 +1,31 @@
-History/
-
+# Various Altium files
 *.PrjPCBStructure
-
-#Previews should remain locals
 *.SchDocPreview
 *.PcbDocPreview
-__Previewss
-
-#Useless extensions
+__Previews
+*.PrjPcbStructure
 *.Dat
 *.REP 
 *.TLT
 *.LOG
+*.log
 *.htm
 *.$$$
-*.log
 
-# Default useless output folders
-Project\ Outputs/
-Project\ Logs/
+#useless dirs
+Project\ Outputs
+Project\ Logs
+Project Outputs for*
 
+#History
+History
 
-# Ignore exports
-exports/
-!exports/README.md
+#Exports, but not manual ones
+exports/*
+!exports/manual
+
+#Python stuff
+scripts/__pycache__/
+*.bak
+*.dwl
+*.dwl2

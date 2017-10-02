@@ -1,0 +1,12 @@
+[submodule "scripts/altiumscriptcentral"]
+	path = scripts/altiumscriptcentral
+	url = git@github.com:mbedded-ninja/AltiumScriptCentral.git
+[submodule "scripts/altium-designer-addons"]
+	path = scripts/altium-designer-addons
+	url = git@github.com:Altium-Designer-addons/scripts-libraries.git
+[submodule "presskit"]
+	path = presskit
+	url = git@github.com:fermiumlabs/presskit.git
+[submodule "libraries"]
+	path = libraries
+	url = git@github.com:ddavidebor/altium-libraries.git
